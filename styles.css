@@ -1,0 +1,120 @@
+
+
+body {
+  background-color: #FFC0CB; /* Baby pink background color */
+  background-image: url('kTMbGqBEc.png'); /* URL to your white flowers image */
+  background-repeat:repeat-x; /* Repeat the image to create a floral print */
+  background-attachment:scroll; /* Fixed background */
+  background-size: 5%; /* Adjust the size of the flowers as needed */
+  color: rgb(255, 255, 255); /* Set text color to white */
+  padding-top: 7%;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+nav {
+  background-color:rgba(255, 255, 255, 0.5); /* Background color */
+  color: #ffffff; /* Text color */
+  font-size: xx-large;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: style;;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Link color */
+}
+
+/* Style links in white color */
+a {
+  color: rgb(255, 231, 231);
+}
+
+/* Additional CSS for specific elements as needed */
+
+  /* Styling for headings */
+  h1, h3 {
+    color: rgb(255, 255, 255); /* Set headings to white */
+    font-size: xxx-large;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(255, 255, 255); /* Set headings to white */
+    font-size: xx-large;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  }
+  
+  /* Styling for links */
+  a {
+    color: rgb(255, 255, 255); /* Set link color to white */
+    text-decoration: none;
+    font-size:xx-large ;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+/* CSS for the popup container */
+.affirmation-container {
+  text-align:center;
+  margin-top: 50px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* CSS for the popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fcd8f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 500px;
+  height: 200px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
+  font-weight: 300;
+
+}
+
+/* CSS for the close button */
+#closePopup {
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffcccc; /* Pink background color for the close button */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  top: 10%;
+  bottom: 50%;
+}
+
+#flower-image {
+  background-image: url('kTMbGqBEc.png'); /* URL to your flower PNG image */
+  background-size: 5%; /* Adjust the size as needed */
+  background-repeat: repeat-x; /* Do not repeat the image */
+  background-position: center bottom; /* Position the image at the bottom center */
+  height: 50px; /* Adjust the height as needed */
+  padding-top: 5%;
+}
+
